@@ -10,9 +10,9 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-git clone https://github.com/Mrbai98/luci-theme-atmaterial package/atmaterial
-git clone https://github.com/awesome-openwrt/luci-app-control-timewol package/timewol
-git clone https://github.com/awesome-openwrt/luci-app-control-mia package/mia
-git clone https://github.com/awesome-openwrt/luci-app-control-weburl package/webur
-git clone https://github.com/awesome-openwrt/luci-app-control-webrestriction package/webrestriction
-git clone https://github.com/honwen/luci-app-aliddns package/aliddns
+git clone https://github.com/Mrbai98/luci-theme-atmaterial package/me/atmaterial
+git clone https://github.com/awesome-openwrt/luci-app-control-timewol package/me/timewol
+git clone https://github.com/awesome-openwrt/luci-app-control-mia package/me/mia
+git clone https://github.com/awesome-openwrt/luci-app-control-weburl package/me/webur
+git clone https://github.com/awesome-openwrt/luci-app-control-webrestriction package/me/webrestriction
+git clone https://github.com/honwen/luci-app-aliddns package/me/aliddns
